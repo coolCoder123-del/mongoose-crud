@@ -1,0 +1,14 @@
+{
+  "name": "mongoose-crud-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A demo showing CRUD operations with Mongoose using an in-memory MongoDB server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongodb-memory-server": "^9.2.0",
+    "mongoose": "^8.4.0"
+  }
+}
